@@ -3805,6 +3805,209 @@ CRIT! =
 
 
 
+* File：`level0`
+
+**没翻就是没改**
+
+```
+pathID: 1343&1396
+Astrobelt Miner = 
+
+pathID: 1344&1358&1370&1401&1421&1465&1467&1471
+BACK  = 返回
+
+pathID: 1345&1486
+Enforcers are unmatched in the art of Aetherblade combat.\nAs noble warriors, they seek to bring peace to the galaxy.
+
+pathID: 1346&1489
+Cooking Recipes Unlocked: 0%
+
+pathID: 1347&1367
+Allegiance: = 阵营：
+
+pathID: 1348&1495
+Enforcer = 
+
+pathID: 1350&1491
+PLAY = 游玩
+
+pathID: 1351&1363&1368&1390
+OPTIONS = 选项
+
+pathID: 1352
+UNLOCKED AFTER COMPLETING 5 MISSIONS
+
+pathID: 1353&1454
+Music = 音乐
+
+pathID: 1354&1488
+Augment: None = 
+
+pathID: 1355&1386
+Difficulty: = 难度：
+
+pathID: 1356&1405
+Fullscreen: On = 全屏：开启
+
+pathID: 1357&1373&1385&1391&1440&1457
+Roguelands
+
+pathID: 1359&1404
+Characters Created: 0
+
+pathID: 1360&1377&1382&1393&1413&1430&1447&1451&1452 &1453&1475&1485
+EMPTY = 空槽位
+
+pathID: 1361&1434
+DESTROY THIS CHARACTER? = 是否删除该角色？
+
+pathID: 1365&1443
+CREATE = 创建
+
+pathID: 1366&1388
+Sound Effects = 音效
+
+pathID: 1369&1468
+Variant: 1
+
+pathID: 1372&1444
+SEAN
+
+pathID: 1374&1493
+Warning: this will restore default Ship and \ndelete all blocks in storage & inventory
+警告：此操作将会重置飞船\n并删除仓库和背包中的所有物品
+
+pathID: 1375&1412
+YES = 是
+
+pathID: 1380&1394
+Audio = 音量
+
+pathID: 1384
+Music by Bashi Boizu
+
+pathID: 1389&1403&1470
+Normal = 标准模式
+
+pathID: 1397&1426
+Join the Community!
+
+pathID: 1399&1461
+Variants Unlocked: 0%
+
+pathID: 1400&1409
+Uniform: Fleet Cadet
+
+pathID: 1407&1427
+Travelers are believed to be direct descendants of the ones who ruled Earth.
+
+pathID: 1408&1496
+The Galactic Fleet
+
+pathID: 1415
+Race: Wanderer
+
+pathID: 1416
+UNLOCKED AFTER COMPLETING 5 MISSIONS
+
+pathID: 1417&1476
+NPCs Unlocked: 0%
+
+pathID: 1418&1449
+Droids Unlocked: 0%
+
+pathID: 1420&1423
+ASDFASDF
+
+pathID: 1424
+build 0.5
+
+pathID: 1428&1455
+DATA = 数据
+
+pathID: 1429&1448
+Warning: this will delete all \ncharacters and all progress
+警告：此操作将会删除所有角色及进度
+
+pathID: 1433 &1480
+Augments Unlocked: 0%
+
+pathID: 1435&1472
+Reset Ship = 重置飞船
+
+pathID: 1436&1469
+CONFIRM = 确认
+
+pathID: 1437&1466
+Developer: Sean Young
+
+pathID: 1439&1450
+Races Unlocked: 0%
+
+pathID: 1441&1456
+NO = 否
+
+pathID: 1445
+Race: Wanderer
+
+pathID: 1446&1499
+Apply
+
+pathID: 1458&1459
+Emblem Recipes Unlocked: 0%
+
+pathID: 1460&1487
+Roguelands Wiki
+
+pathID: 1464&1472
+CHARACTER SELECT = 选择角色
+
+pathID: 1477&1500
+QUIT =  退出
+
+pathID: 1483&1498
+Delete All Data = 清空数据
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+
+pathID: 0
+U
+```
+
 
 
 ---
