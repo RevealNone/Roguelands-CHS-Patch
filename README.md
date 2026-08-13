@@ -1,8 +1,14 @@
 # 猛兽之地/Roguelands v1.5.1 汉化补丁
 
-**补丁版本 v0.99**
+**补丁版本 v0.99.1**
 
-当前版本并非完全汉化，可能仍存在部分问题。
+---
+
+2026.08.13
+增加了部分UI的翻译
+注意：相对旧版增加了需要替换的文件
+
+---
 
 感谢 B 站 UP 主 @Icetric冰介 分享的汉化教程与工具，  
 感谢游侠网发布的 Roguelands v1.0 版本汉化补丁。
@@ -33,17 +39,13 @@ C:\Users\你的用户名\AppData\LocalLow\DefaultCompany\Roguelands\PlayerPrefs.
 
 解压 `ch.zip`
 
-1. 替换 `Roguelands\_Data` 中 `level1`、`sharedassets0`、`sharedassets1.assets` 三个文件。
-
-   另：
-
-   `level0、resources.assets` 文件经测试不会影响汉化效果，因此无需替换。
+1. 替换 Roguelands_Data中level0、level1、sharedassets0、sharedassets1.assets、resources.assets  五个文件。**
 
 2. 替换 `Roguelands\_Data\Managed` 目录下的 `Assembly-CSharp.dll`。
 
-   考虑到物品汉化可能会影响 Wiki 查询， 可以使用 `ch ex-item` 文件夹中的 `Assembly-CSharp.dll` 进行替换，该版本保留了可持有物的英文。
-   
-使用完整汉化补丁的玩家，可以在 `RoguelandsTranslation.md` 文件中查找中文文本对应的英文原文，再通过英文名称在 Wiki 搜索。
+   · 考虑到物品汉化可能会影响 Wiki 查询， 可以使用 `ch ex-item` 文件夹中的 `Assembly-CSharp.dll` 进行替换，该版本保留了可持有物的英文。
+
+   · 使用完整汉化补丁的玩家，可以在 `RoguelandsTranslation.md` 文件中查找中文文本对应的英文原文，再通过英文名称在 Wiki 搜索。
 
 ---
 
@@ -51,7 +53,7 @@ Backup 文件夹中保存了部分替换前的备份文件。
 
 注意：
 
-删除汉化时，需要先删掉文件名中的“(空格)backup”。
+去除汉化时，使用提供的备份文件需要先删掉文件名中的“ backup”，注意空格部分。
 
 \*当然，更推荐通过 Steam 卸载并重新安装游戏来移除汉化。
 
@@ -88,7 +90,7 @@ Backup 文件夹中保存了部分替换前的备份文件。
 
 1. 明显的错误翻译；
 2. 游戏文本漏译；  
-   （除 UI 和角色创建界面的3个单词，这我真找不到）
+      （除 数据(DATA) 页的社区链接相关内容）**
 3. 影响阅读的字体偏移；
 4. 其他可能存在的问题。
 
@@ -114,3 +116,7 @@ Backup 文件夹中保存了部分替换前的备份文件。
 千般难述
 
 2026.08.08
+
+---
+
+**： 2026.08.13 修改
