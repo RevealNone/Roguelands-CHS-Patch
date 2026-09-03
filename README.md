@@ -39,9 +39,9 @@ C:\Users\你的用户名\AppData\LocalLow\DefaultCompany\Roguelands\PlayerPrefs.
 
 解压 `ch.zip`
 
-1. 替换 Roguelands_Data中level0、level1、sharedassets0、sharedassets1.assets、resources.assets  五个文件。**
+1. 替换 `Roguelands_Data`中`level0`、`level1`、`sharedassets0.assets`、`sharedassets1.assets`、`resources.assets`  五个文件。**
 
-2. 替换 `Roguelands\_Data\Managed` 目录下的 `Assembly-CSharp.dll`。
+2. 替换 `Roguelands_Data\Managed` 目录下的 `Assembly-CSharp.dll`。
 
    · 考虑到物品汉化可能会影响 Wiki 查询， 可以使用 `ch ex-item` 文件夹中的 `Assembly-CSharp.dll` 进行替换，该版本保留了可持有物的英文。
 
