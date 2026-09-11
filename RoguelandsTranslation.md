@@ -1858,7 +1858,7 @@ We've fought for our independence from tyrannical governments before. This is no
 我们曾经为了摆脱暴政统治而战。这一次也没什么不同。
 
 Please, bring back 10 Orichalcum and give them to me. Don't fall for her lies!
-拜托了，带10块奥利哈钢[Orichalcum]回来给我。别中了她的谎言！
+拜托了，带10块奥利哈钢[Orichalcum]回来给我。别信了她的谎言！
 
 Thanks a ton! With this Orichalcum we can construct some weapons in case the Galactic Federation decides to come for us.
 太感谢了！有了这些奥利哈钢[Orichalcum]，我们就能制造一些武器，以防银河联邦决定对我们动手。
