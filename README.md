@@ -35,7 +35,7 @@ C:\Users\你的用户名\AppData\LocalLow\DefaultCompany\Roguelands\PlayerPrefs.
 其他文件位置：
 
 ```text
-你的 Steam 安装路径\Steam\steamapps\common\Roguelands\Roguelands\_Data...
+你的 Steam 安装路径\Steam\steamapps\common\Roguelands\Roguelands_Data\...
 ```
 
 ---
