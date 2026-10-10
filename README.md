@@ -1,21 +1,10 @@
 # 猛兽之地/Roguelands v1.5.1 汉化补丁
 
-**补丁版本 v0.99.1.2**
+**补丁版本 v1.2**
 
 ---
 
-2026.09.11
-修复了星光叛军剧情线中部分对话错误
-
----
-
-2026.08.13
-增加了部分UI的翻译
-注意：相对旧版增加了需要替换的文件
-
----
-
-感谢 B 站 UP 主 @Icetric冰介 分享的汉化教程与工具，  
+感谢 B 站 UP 主 @Icetric冰介 分享的汉化教程与工具，
 感谢游侠网发布的 Roguelands v1.0 版本汉化补丁。
 
 本补丁部分使用了非商业资源，任何人均可以基于此补丁进行修改与分享，但严禁将本补丁或其修改版本用于任何商业用途。
@@ -35,93 +24,116 @@ C:\Users\你的用户名\AppData\LocalLow\DefaultCompany\Roguelands\PlayerPrefs.
 其他文件位置：
 
 ```text
-你的 Steam 安装路径\Steam\steamapps\common\Roguelands\Roguelands\_Data...
+你的 Steam 安装路径\Steam\steamapps\common\Roguelands\Roguelands_Data\...
+```
+
+如果想游玩mod请自行查询wiki
+
+---
+
+虽然是以mod版为基础做的补丁，但经过测试貌似也适用于游戏本体，所以不单独给本体做了
+
+根据以下需求情况查看对应文件说明进行安装。
+
+* 仅游玩游戏本体，不安装包括GadgetCore在内的任何额外附加内容：
+
+​		Part A/B
+
+* 游玩mod版，但不使用任何扩展游戏内容的mod（仅使用功能性mod），或者不想对mod内容进行汉化：
+
+  Part A/B/C
+
+* 游玩mod并希望对mod进行汉化
+
+  * 完全通过mod对游戏进行汉化
+
+    Part A/D/E
+
+  * 通过补丁汉化游戏本体，通过mod汉化mod内容
+
+    Part A/B/C/D/F
+
+注意：
+由mod实现的汉化（小部分本体和所有mod内容）存在最高0.2s的延迟
+3.1方案中不排除汉化mod和其他mod Patch了本体的同一个方法，这可能会导致二者只有一个生效；目前暂时没有发现这类冲突但不排除该冲突存在。同时该方案存在一部分文本未汉化，但不影响游玩。
+3.2方案，如果mod作者使用字符串查询原版物品，可能会导致mod失效，没发现也应该不会有作者这么做
+
+---
+
+文件说明
+
+**下面提到需要替换的文件均从Roguelands安装目录开始查找**
+
+* Part A：字体文件
+  在Font文件夹下
+
+​		选择你喜欢的一版字体，替换Roguelands_Data目录下的对应文件`sharedassets0.assets`, `sharedassets0.assets`;
+
+* Part B：本体汉化补丁
+  在Patch文件夹下
+  替换Roguelands_Data目录下的`level0`, `level1`, `resources.assets`
+  替换Roguelands_Data/Managed目录下的`Assembly-CSharp.dll`
+
+* Part C：模组框架汉化修复补丁（这个框架覆写了原版的两处文本，需要重新汉化，不汉化也不影响）
+  在Patch/GadgetCore x.x.x.x目录下
+  选择对应的版本替换Roguelands_Data/Managed目录下的`GadgetCore.dll`
+
+* Part D：字体修复模组
+  在Mod文件夹下，将`ZhFontsFixForMods_v1.1.zip`放进Mods目录
+  ScarpYard/Dresser/CombatChipChest/AncientReassembler这几个mod由于增加了独立的界面，需要修复中文字体显示
+
+* Part E：本体与mod汉化模组
+  在Mod文件夹下，将`RoguelandsChinese_v1.2.zip`放进Mods目录
+
+* Part F：mod汉化模组
+  在Mod文件夹下，将`ZhForMods_v1.2.zip`放进Mods目录
+
+已汉化mod：
+
+```
+Ancient Ressembler
+Combat Chip Chest
+Crystal Crevasse
+Dresser
+Engines Deluxe
+Extra Potions
+Item Frames
+More Lights
+More Vanity Items
+Multiplayer Client Spawn
+Original Vanity Items
+Platform Block
+Scarp Yard
+Stasis Pod
+Subworlds
+TiersPlus
+Ultimate NPC Weapons
+Ultimate Rings
+```
+
+以下mod存在文本但没有翻译
+
+```
+Splash Texts：真正的副标题，但是翻译的话有些标题看着好尬，可能是英文语境下的一些梗，干脆不翻了
+Utimate Fusion：把究极boss装备的属性打到其他装备上，本质是的外观mod，但既然已经有外观槽（虚荣槽）就没啥用了
+Tien Contenet Mod：对一些内容进行了大修和扩展，可惜mod内部打架装不了
 ```
 
 ---
 
-## 使用方法
+如果该补丁无法用于本体，可以尝试使用旧版Release里原来基于本体制作的补丁
 
-解压 `ch.zip`
 
-1. 替换 `Roguelands_Data`中`level0`、`level1`、`sharedassets0.assets`、`sharedassets1.assets`、`resources.assets`  五个文件。**
 
-2. 替换 `Roguelands_Data\Managed` 目录下的 `Assembly-CSharp.dll`。
+有问题可以在百度贴吧-roguelands吧 
 
-   · 考虑到物品汉化可能会影响 Wiki 查询， 可以使用 `ch ex-item` 文件夹中的 `Assembly-CSharp.dll` 进行替换，该版本保留了可持有物的英文。
+```
+https://tieba.baidu.com/p/10928782464
+```
 
-   · 使用完整汉化补丁的玩家，可以在 `RoguelandsTranslation.md` 文件中查找中文文本对应的英文原文，再通过英文名称在 Wiki 搜索。
+这个贴子里找我
 
----
 
-Backup 文件夹中保存了部分替换前的备份文件。
-
-注意：
-
-去除汉化时，使用提供的备份文件需要先删掉文件名中的“ backup”，注意空格部分。
-
-\*当然，更推荐通过 Steam 卸载并重新安装游戏来移除汉化。
-
----
-
-## 问题与反馈
-
-由于当前版本为个人参考旧版本（v1.0）汉化，并结合 ChatGPT 翻译完成，  
-因此可能存在翻译、文本显示、兼容性等方面的问题。
-
-1.1 部分进阶武器和装备名称为了避免出现“阔剑”“双手巨剑”等过于普通的译名，在牺牲部分原意的情况下进行了艺术化处理。
-
-1.2 另外有些文本是我摆烂时翻的。
-
-2. 完成本汉化时，我的游戏进度仅推进至6图（银河舰队剧情——初见毁灭者）。  
-因此，在此之后出现的文本可能存在错译或漏译。
-
-3. 游戏共使用7种字体，但目前确认并找到的只有其中2种。  
-因此，其他字体对应的文本可能存在显示偏移等问题。
-
-4. 汉化文本中标注的部分 Bug 为 Wiki 中记录的游戏原生 Bug，  
-并非由汉化导致。
-
-5. 游戏角色创建界面支持输入中文名称，但需要对应字库支持。  
-当前字库约包含1700个中文字符，建议尽量避免使用生僻字。
-
----
-
-如果遇到以下问题，可以发送邮件至：
-
-[2504861033@qq.com](mailto:2504861033@qq.com)
-
-（该邮箱为备用邮箱，不会频繁查看，会尽量定期整理反馈）
-
-1. 明显的错误翻译；
-2. 游戏文本漏译；  
-      （除 数据(DATA) 页的社区链接相关内容）**
-3. 影响阅读的字体偏移；
-4. 其他可能存在的问题。
-
-反馈时请说明：
-
-- 问题出现的位置；
-- 对应的文本或游戏截图。
-
----
-
-由于该补丁仅在一台设备上进行过测试，不排除在其他设备上出现无法启动的问题（理论上我觉得不太可能）。
-
-如果出现启动问题，请先确认原版游戏可以正常启动，再尝试安装汉化补丁。若无法启动，建议优先还原 level1 文件。
-
-如果还是不行
-
-……
-
-我也不知道咋整（ゝω・）
-
----
 
 千般难述
-
-2026.08.08
-
----
-
-**： 2026.08.13 修改
+2026.10.10
