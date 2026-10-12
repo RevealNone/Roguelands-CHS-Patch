@@ -71,22 +71,30 @@ C:\Users\你的用户名\AppData\LocalLow\DefaultCompany\Roguelands\PlayerPrefs.
 
 * Part B：本体汉化补丁
   在Patch文件夹下
-  替换Roguelands_Data目录下的`level0`, `level1`, `resources.assets`
-  替换Roguelands_Data/Managed目录下的`Assembly-CSharp.dll`
+  
+    替换Roguelands_Data目录下的`level0`, `level1`, `resources.assets`
+  
+    替换Roguelands_Data/Managed目录下的`Assembly-CSharp.dll`
 
 * Part C：模组框架汉化修复补丁（这个框架覆写了原版的两处文本，需要重新汉化，不汉化也不影响）
-  在Patch/GadgetCore x.x.x.x目录下
-  选择对应的版本替换Roguelands_Data/Managed目录下的`GadgetCore.dll`
+  
+    在Patch/GadgetCore x.x.x.x目录下
+  
+    选择对应的版本替换Roguelands_Data/Managed目录下的`GadgetCore.dll`
 
 * Part D：字体修复模组
-  在Mod文件夹下，将`ZhFontsFixForMods_v1.1.zip`放进Mods目录
-  ScarpYard/Dresser/CombatChipChest/AncientReassembler这几个mod由于增加了独立的界面，需要修复中文字体显示
+ 
+    在Mod文件夹下，将`ZhFontsFixForMods_v1.1.zip`放进Mods目录
+  
+    ScarpYard/Dresser/CombatChipChest/AncientReassembler这几个mod由于增加了独立的界面，需要修复中文字体显示
 
 * Part E：本体与mod汉化模组
-  在Mod文件夹下，将`RoguelandsChinese_v1.2.zip`放进Mods目录
+
+    在Mod文件夹下，将`RoguelandsChinese_v1.2.zip`放进Mods目录
 
 * Part F：mod汉化模组
-  在Mod文件夹下，将`ZhForMods_v1.2.zip`放进Mods目录
+  
+    在Mod文件夹下，将`ZhForMods_v1.2.zip`放进Mods目录
 
 已汉化mod：
 
@@ -115,7 +123,7 @@ Ultimate Rings
 
 ```
 Splash Texts：真正的副标题，但是翻译的话有些标题看着好尬，可能是英文语境下的一些梗，干脆不翻了
-Utimate Fusion：把究极boss装备的属性打到其他装备上，本质是的外观mod，但既然已经有外观槽（虚荣槽）就没啥用了
+Utimate Fusion：把究极boss装备的属性打到其他装备上，本质是个外观mod，但既然已经有外观槽（虚荣槽）就没啥用了
 Tien Contenet Mod：对一些内容进行了大修和扩展，可惜mod内部打架装不了
 ```
 
