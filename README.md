@@ -67,7 +67,7 @@ C:\Users\你的用户名\AppData\LocalLow\DefaultCompany\Roguelands\PlayerPrefs.
 * Part A：字体文件
   在Font文件夹下
 
-​		选择你喜欢的一版字体，替换Roguelands_Data目录下的对应文件`sharedassets0.assets`, `sharedassets0.assets`;
+​		选择你喜欢的一版字体，替换Roguelands_Data目录下的对应文件`sharedassets0.assets`, `sharedassets1.assets`;
 
 * Part B：本体汉化补丁
   在Patch文件夹下
