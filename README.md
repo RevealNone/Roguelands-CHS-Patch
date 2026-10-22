@@ -1,6 +1,8 @@
 # 猛兽之地/Roguelands v1.5.1 汉化补丁
 
-**补丁版本 v1.2**
+**补丁版本 v1.2.1**
+
+**修复了使用ZhForMods汉化mod时mod物品在背包和仓库中未汉化的问题**
 
 ---
 
@@ -83,7 +85,7 @@ C:\Users\你的用户名\AppData\LocalLow\DefaultCompany\Roguelands\PlayerPrefs.
     选择对应的版本替换Roguelands_Data/Managed目录下的`GadgetCore.dll`
 
 * Part D：字体修复模组
- 
+
     在Mod文件夹下，将`ZhFontsFixForMods_v1.1.zip`放进Mods目录
   
     ScarpYard/Dresser/CombatChipChest/AncientReassembler这几个mod由于增加了独立的界面，需要修复中文字体显示
@@ -144,4 +146,4 @@ https://tieba.baidu.com/p/10928782464
 
 
 千般难述
-2026.10.10
+2026.10.22
